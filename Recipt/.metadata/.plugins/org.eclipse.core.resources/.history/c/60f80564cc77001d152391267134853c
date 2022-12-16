@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout/layout}">
+<head>
+	<title>CSV入出力</title>
+	<!-- 個別CSS読込 
+	<link rel="stylesheet" th:href="@{/css/calendar.css}">
+	-->
+	<link rel="stylesheet" th:href="@{/webjars/datatables/css/jquery.dataTables.min.css}">
+	<script type="text/javascript" th:inline="javascript">
+	/*<![CDATA[*/
+		var listData = /*[[${allListData}]]*/ null;
+	/*]]>*/
+	</script>
+	<script th:src="@{/webjars/datatables/js/jquery.dataTables.min.js}" defer></script>
+	<script th:src="@{/js/all.js}" defer></script>
+</head>
+<body>
+	<div layout:fragment="content">
+		<div class="header border-bottom">
+			<h1 id="header">CSV入出力</h1>
+		</div>
+		<p>CSV列設定：レシートID,日付,費目名,支払元,入金先,品目,店舗名,支出金額,収入金額,?,?,?</p>	
+		<p>CSV列設定：レシートID,日付,費目名,支払元,入金先,品目,店舗名,支出金額,収入金額,,,</p>	
+		<div>
+			<label>CSV入力パス</label>
+			<input id= "input" type="text" class="form-control"/>
+			<button id="btn-input" class="btn btn-primary" type="button">入力</button>
+		</div>
+		<div>
+			<label>CSV出力パス</label>
+			<input id="output" type="text" class="form-control"/>
+			<button id="btn-output" class="btn btn-primary" type="button">出力</button>
+		</div>
+	</div>
+</body>
+</html>

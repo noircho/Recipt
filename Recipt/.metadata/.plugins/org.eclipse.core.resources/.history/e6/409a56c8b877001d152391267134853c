@@ -1,0 +1,37 @@
+package com.example.service.impl;
+
+import java.math.BigDecimal;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.model.TListData;
+import com.example.repository.DataMapper;
+import com.example.service.ListDataService;
+
+@Service
+public class ListDataServiceImpl implements ListDataService {
+	
+	@Autowired
+	private DataMapper mapper;
+	
+	/** 月データ取得 */
+	@Override
+	public List<ListData> getMonthListData(String yyyyMM) {
+		return mapper.getMonthListData(yyyyMM);
+	}
+	
+	/** ひと月における日付ごとの金額データを取得 */
+	@Override
+	public List<Map<String,BigDecimal>> getMonthDateMoneyData(String yyyyMM) {
+		return mapper.getMonthDateMoneyData(yyyyMM);
+	}
+	
+	/** ひと月における費目ごとの金額データを取得 */
+	@Override
+	public List<Map<String,BigDecimal>> getMonthCategoryMoneyData(String yyyyMM) {
+		return mapper.getMonthCategoryMoneyData(yyyyMM);
+	}
+}

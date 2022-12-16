@@ -1,0 +1,22 @@
+package com.example.repository;
+
+import java.math.BigDecimal;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import com.example.model.TListData;
+
+@Mapper
+public interface DataMapper {
+	
+	// 月データ取得
+	public List<TListData> getMonthListData(String yyyymm);
+	
+	// ひと月における日付ごとの金額データを取得
+	public List<Map<String, BigDecimal>> getMonthDateMoneyData(String yyyymm);
+	
+	// ひと月における費目ごとの金額データを取得
+	public Map<String, BigDecimal> getMonthCategoryMoneyData(String yyyymm);
+}

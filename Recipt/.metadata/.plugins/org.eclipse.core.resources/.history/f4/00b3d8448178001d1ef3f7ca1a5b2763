@@ -1,0 +1,23 @@
+package com.example.model;
+
+import java.math.BigDecimal;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import java.util.Date;
+
+import lombok.Data;
+
+@JsonPropertyOrder({"レシートID", "日付", "費目名", "品目", "店舗名", "支出金額", "入力日" ,"更新日", "削除フラグ"})
+@Data
+public class TData {
+	private String reciptId;
+	private Date buyDate;
+	private String categoryId;
+	private String itemName;
+	private String shopName;
+	private BigDecimal spentMoney;
+	private Date inputDate;
+	private Date updateDate;
+	private boolean delFlg;
+}

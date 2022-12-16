@@ -1,0 +1,26 @@
+/* データテーブル */
+INSERT INTO t_data (
+	recipt_id
+	, buy_date
+	, category_id
+	, item_name
+	, shop_name
+	, spent_money
+	, input_date
+	, update_date
+	, del_flg
+) VALUES
+('1','2022-12-01','1','アイテム名','店名',100,'2000-01-01','2000-01-01',0)
+,('2','2022-12-02','1','アイテム名','店名',100,'2000-01-01','2000-01-01',0)
+;
+
+/* 費目マスタ */
+INSERT INTO m_category (
+	category_id
+	, category_name
+	, input_date
+	, update_date
+	, del_flg
+) VALUES
+('1','食費','2000-01-01','2000-01-01',0)
+;

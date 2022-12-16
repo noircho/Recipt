@@ -1,0 +1,1580 @@
+!SESSION 2022-12-16 15:30:56.233 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\java\Recipt\.metadata\.bak_0.log
+Created Time: 2022-12-16 15:37:55.809
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:55.810
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jPHcHlXAisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:55.817
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:55.821
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:55.823
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:55.824
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:55.825
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jPHcHlXA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:55.848
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:55.868
+!MESSAGE buffering callback sts4.classpath.jPHcHlXA Recipt false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:55.869
+!MESSAGE executing callback sts4.classpath.jPHcHlXA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:37:56.508
+!MESSAGE executing callback sts4.classpath.jPHcHlXA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:21.464
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jPHcHlXA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:21.466
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jPHcHlXA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:21.467
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:21.468
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jPHcHlXA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:24.299
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:24.300
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@41496617[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=1011)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:24.301
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:27.882
+!MESSAGE 起動から初期化までの Boot LS 起動時間: 3577ms
+
+!ENTRY org.eclipse.jface.text 4 0 2022-12-16 15:38:27.899
+!MESSAGE java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1155)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	... 6 more
+
+!ENTRY org.eclipse.jface.text 4 0 2022-12-16 15:38:27.903
+!MESSAGE java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1155)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	... 6 more
+
+!ENTRY org.eclipse.jface.text 4 0 2022-12-16 15:38:27.904
+!MESSAGE java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1155)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	... 6 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.143
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rrWWrHGLisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.145
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.147
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.148
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.150
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rrWWrHGL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.171
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.189
+!MESSAGE buffering callback sts4.classpath.rrWWrHGL Recipt false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.190
+!MESSAGE executing callback sts4.classpath.rrWWrHGL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:38:28.754
+!MESSAGE executing callback sts4.classpath.rrWWrHGL SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-16 15:41:23.966
+!MESSAGE The POM for org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:24.219
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:24.244
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:24.263
+!MESSAGE buffering callback sts4.classpath.rrWWrHGL Recipt false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:24.264
+!MESSAGE executing callback sts4.classpath.rrWWrHGL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:24.337
+!MESSAGE executing callback sts4.classpath.rrWWrHGL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:28.391
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:28.420
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:28.442
+!MESSAGE buffering callback sts4.classpath.rrWWrHGL Recipt false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:28.443
+!MESSAGE executing callback sts4.classpath.rrWWrHGL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:28.547
+!MESSAGE executing callback sts4.classpath.rrWWrHGL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:30.994
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:31.019
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:31.042
+!MESSAGE buffering callback sts4.classpath.rrWWrHGL Recipt false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:31.043
+!MESSAGE executing callback sts4.classpath.rrWWrHGL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:31.145
+!MESSAGE executing callback sts4.classpath.rrWWrHGL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:36.264
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:36.289
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:36.309
+!MESSAGE buffering callback sts4.classpath.rrWWrHGL Recipt false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:36.310
+!MESSAGE executing callback sts4.classpath.rrWWrHGL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:36.380
+!MESSAGE executing callback sts4.classpath.rrWWrHGL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:37.365
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:37.391
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:37.413
+!MESSAGE buffering callback sts4.classpath.rrWWrHGL Recipt false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:37.414
+!MESSAGE executing callback sts4.classpath.rrWWrHGL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:37.487
+!MESSAGE executing callback sts4.classpath.rrWWrHGL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:42.288
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rrWWrHGL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:42.289
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.rrWWrHGL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:42.291
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:42.292
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rrWWrHGL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:47.368
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:47.369
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@41496617[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=1011)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:47.370
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:51.779
+!MESSAGE 起動から初期化までの Boot LS 起動時間: 4405ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:51.991
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MgMCoQCNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:51.993
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:51.994
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:51.995
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:51.996
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:51.996
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MgMCoQCN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:52.015
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:52.032
+!MESSAGE buffering callback sts4.classpath.MgMCoQCN Recipt false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:52.032
+!MESSAGE executing callback sts4.classpath.MgMCoQCN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:41:52.760
+!MESSAGE executing callback sts4.classpath.MgMCoQCN SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-16 15:43:11.076
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-16 15:44:07.704
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-16 15:44:34.431
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-16 15:46:25.088
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui 4 4 2022-12-16 15:48:46.819
+!MESSAGE Could not create action delegate for id: org.springsource.ide.eclipse.commons.launch.relaunch.action
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2022-12-16 15:48:46.819
+!MESSAGE プラグイン "org.springsource.ide.eclipse.commons.ui" は、クラス "org.springsource.ide.eclipse.commons.ui.launch.RelaunchProcessPullDownToolbarDelegate" をインスタンス化できませんでした。
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:281)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:126)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:157)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.<init>(LaunchList.java:74)
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.<init>(LiveAndDeadProcessTracker.java:77)
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.getInstance(LiveAndDeadProcessTracker.java:69)
+	at org.springsource.ide.eclipse.commons.ui.launch.RelaunchProcessPullDownToolbarDelegate.createList(RelaunchProcessPullDownToolbarDelegate.java:29)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.<init>(AbstractLaunchToolbarPulldown.java:52)
+	at org.springsource.ide.eclipse.commons.ui.launch.RelaunchProcessPullDownToolbarDelegate.<init>(RelaunchProcessPullDownToolbarDelegate.java:15)
+	... 37 more
+Root exception:
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.<init>(LaunchList.java:74)
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.<init>(LiveAndDeadProcessTracker.java:77)
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.getInstance(LiveAndDeadProcessTracker.java:69)
+	at org.springsource.ide.eclipse.commons.ui.launch.RelaunchProcessPullDownToolbarDelegate.createList(RelaunchProcessPullDownToolbarDelegate.java:29)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.<init>(AbstractLaunchToolbarPulldown.java:52)
+	at org.springsource.ide.eclipse.commons.ui.launch.RelaunchProcessPullDownToolbarDelegate.<init>(RelaunchProcessPullDownToolbarDelegate.java:15)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:281)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:126)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:157)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui 4 4 2022-12-16 15:48:46.823
+!MESSAGE Could not create action delegate for id: org.springsource.ide.eclipse.commons.launch.stop.action
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2022-12-16 15:48:46.824
+!MESSAGE プラグイン "org.springsource.ide.eclipse.commons.ui" は、クラス "org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate" をインスタンス化できませんでした。
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:281)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:126)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:157)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.<init>(LaunchList.java:74)
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.<init>(LiveProcessTracker.java:49)
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.getInstance(LiveProcessTracker.java:43)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.createList(StopProcessPullDownToolbarDelegate.java:34)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.<init>(AbstractLaunchToolbarPulldown.java:52)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.<init>(StopProcessPullDownToolbarDelegate.java:18)
+	... 37 more
+Root exception:
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.<init>(LaunchList.java:74)
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.<init>(LiveProcessTracker.java:49)
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.getInstance(LiveProcessTracker.java:43)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.createList(StopProcessPullDownToolbarDelegate.java:34)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.<init>(AbstractLaunchToolbarPulldown.java:52)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.<init>(StopProcessPullDownToolbarDelegate.java:18)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:281)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:126)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:157)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-12-16 15:48:47.664
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-12-16 15:48:47.667
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-12-16 15:49:33.431
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-12-16 15:49:33.432
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-12-16 15:49:33.434
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-12-16 15:49:33.435
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-12-16 15:49:40.219
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-12-16 15:49:40.220
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-12-16 15:53:24.261
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-12-16 15:53:24.263
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-12-16 15:53:24.264
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-12-16 15:53:24.265
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-12-16 15:53:52.278
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-12-16 15:53:52.279
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-12-16 15:53:52.280
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-12-16 15:53:52.281
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-12-16 15:54:51.706
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-12-16 15:54:51.708
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:58:41.345
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MgMCoQCN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:58:41.346
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.MgMCoQCN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:58:41.349
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-16 15:58:41.351
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MgMCoQCN => OK
+!SESSION 2022-12-16 16:05:24.998 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-12-16 16:05:35.864
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-16 16:05:35.864
+!MESSAGE CTRL+SHIFT+T の競合が発生しました:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75381b61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2801ccb3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-12-16 16:05:45.639
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-12-16 16:05:45.640
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.jface 2 0 2022-12-16 16:05:46.527
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-16 16:05:46.527
+!MESSAGE ALT+CTRL+T の競合が発生しました:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,プロパティーの表示,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60b4ce86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,選択されたローカル・ターミナルを開く,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11f18ed3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-12-16 16:13:34.392
+!MESSAGE 操作の詳細
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2022-12-16 16:13:34.392
+!MESSAGE 元の要求は変更されました。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.392
+!MESSAGE "EdDSA-Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Jetty :: サーバー・コア" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Jetty :: ユーティリティー" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Apache Commons Compress" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Jetty :: IO Utility" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "JSch" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "SLF4J API Module" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Apache Ant" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "JZlib" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Jetty :: セキュリティー" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Apache Commons Codec" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Gson: Google Json Library for Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Git Java 実装" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Jetty :: Servlet Handling" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Apache HttpCore" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Bouncy Castle OpenPGP API" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "XZ for Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Git Java 実装 - オプションの Apache httpclient を使用した Http サポート" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Apache Mina SSHD :: SFTP" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "javaewah" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Eclipse 用 Git 統合" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Git Java 実装 - ssh support using Apache MINA sshd" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Java Native Access Platform" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Apache HttpClient" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Apache Mina SSHD :: OSGi" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Jetty :: ユーティリティー :: Ajax(JSON)" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Bouncy Castle Provider" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Java Native Access" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Git Java 実装 - GPG support using BouncyCastle" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "Jetty :: Http Utility" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.393
+!MESSAGE "reload4j" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-12-16 16:13:34.393
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE Software being installed: Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit.feature.group 6.4.0.202211300538-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE Software currently installed: Eclipse 用 Git 統合 - Task focused interface 5.12.0.202106070339-r (org.eclipse.egit.mylyn.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.393
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE Git integration for Eclipse 5.12.0.202106070339-r (org.eclipse.egit 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit 6.4.0.202211300538-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.393
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE From: Git integration for Eclipse 5.12.0.202106070339-r (org.eclipse.egit.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit [5.12.0.202106070339-r,5.12.0.202106070339-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.393
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE From: Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit.feature.group 6.4.0.202211300538-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit [6.4.0.202211300538-r,6.4.0.202211300538-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.393
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE From: Eclipse 用 Git 統合 - Task focused interface 5.12.0.202106070339-r (org.eclipse.egit.mylyn.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.393
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.feature.group [5.12.0,5.13.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-12-16 16:13:34.514
+!MESSAGE 操作の詳細
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2022-12-16 16:13:34.514
+!MESSAGE 元の要求は変更されました。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "EdDSA-Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Jetty :: サーバー・コア" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Jetty :: ユーティリティー" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Apache Commons Compress" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Jetty :: IO Utility" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "JSch" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "SLF4J API Module" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Apache Ant" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "JZlib" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Jetty :: セキュリティー" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Apache Commons Codec" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Gson: Google Json Library for Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Git Java 実装" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Jetty :: Servlet Handling" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Apache HttpCore" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Bouncy Castle OpenPGP API" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "XZ for Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Git Java 実装 - オプションの Apache httpclient を使用した Http サポート" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Apache Mina SSHD :: SFTP" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "javaewah" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Eclipse 用 Git 統合" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Git Java 実装 - ssh support using Apache MINA sshd" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Java Native Access Platform" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Apache HttpClient" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Apache Mina SSHD :: OSGi" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Jetty :: ユーティリティー :: Ajax(JSON)" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Bouncy Castle Provider" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Java Native Access" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Git Java 実装 - GPG support using BouncyCastle" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "Jetty :: Http Utility" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.514
+!MESSAGE "reload4j" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-12-16 16:13:34.514
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE Software being installed: Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit.feature.group 6.4.0.202211300538-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE Software currently installed: Eclipse 用 Git 統合 - Task focused interface 5.12.0.202106070339-r (org.eclipse.egit.mylyn.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.514
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE Git integration for Eclipse 5.12.0.202106070339-r (org.eclipse.egit 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit 6.4.0.202211300538-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.514
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE From: Git integration for Eclipse 5.12.0.202106070339-r (org.eclipse.egit.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit [5.12.0.202106070339-r,5.12.0.202106070339-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.514
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE From: Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit.feature.group 6.4.0.202211300538-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit [6.4.0.202211300538-r,6.4.0.202211300538-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.514
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE From: Eclipse 用 Git 統合 - Task focused interface 5.12.0.202106070339-r (org.eclipse.egit.mylyn.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.514
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.feature.group [5.12.0,5.13.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-12-16 16:13:34.711
+!MESSAGE 操作の詳細
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2022-12-16 16:13:34.711
+!MESSAGE 元の要求は変更されました。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "EdDSA-Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Jetty :: サーバー・コア" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Jetty :: ユーティリティー" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Apache Commons Compress" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Jetty :: IO Utility" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "JSch" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "SLF4J API Module" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Apache Ant" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "JZlib" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Jetty :: セキュリティー" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Apache Commons Codec" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Gson: Google Json Library for Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Git Java 実装" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Jetty :: Servlet Handling" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Apache HttpCore" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Bouncy Castle OpenPGP API" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "XZ for Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Git Java 実装 - オプションの Apache httpclient を使用した Http サポート" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Apache Mina SSHD :: SFTP" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "javaewah" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Eclipse 用 Git 統合" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Git Java 実装 - ssh support using Apache MINA sshd" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Java Native Access Platform" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Apache HttpClient" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Apache Mina SSHD :: OSGi" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Jetty :: ユーティリティー :: Ajax(JSON)" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Bouncy Castle Provider" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Java Native Access" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Git Java 実装 - GPG support using BouncyCastle" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "Jetty :: Http Utility" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.711
+!MESSAGE "reload4j" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-12-16 16:13:34.711
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE Software being installed: Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit.feature.group 6.4.0.202211300538-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE Software currently installed: Eclipse 用 Git 統合 - Task focused interface 5.12.0.202106070339-r (org.eclipse.egit.mylyn.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.711
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE Git integration for Eclipse 5.12.0.202106070339-r (org.eclipse.egit 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit 6.4.0.202211300538-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.711
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE From: Git integration for Eclipse 5.12.0.202106070339-r (org.eclipse.egit.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit [5.12.0.202106070339-r,5.12.0.202106070339-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.711
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE From: Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit.feature.group 6.4.0.202211300538-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit [6.4.0.202211300538-r,6.4.0.202211300538-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.711
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE From: Eclipse 用 Git 統合 - Task focused interface 5.12.0.202106070339-r (org.eclipse.egit.mylyn.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.711
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.feature.group [5.12.0,5.13.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-12-16 16:13:34.713
+!MESSAGE 操作の詳細
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2022-12-16 16:13:34.713
+!MESSAGE 元の要求は変更されました。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "EdDSA-Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Jetty :: サーバー・コア" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Jetty :: ユーティリティー" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Apache Commons Compress" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Jetty :: IO Utility" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "JSch" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "SLF4J API Module" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Apache Ant" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "JZlib" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Jetty :: セキュリティー" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Apache Commons Codec" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Gson: Google Json Library for Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Git Java 実装" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Jetty :: Servlet Handling" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Apache HttpCore" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Bouncy Castle OpenPGP API" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "XZ for Java" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Git Java 実装 - オプションの Apache httpclient を使用した Http サポート" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Apache Mina SSHD :: SFTP" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "javaewah" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Eclipse 用 Git 統合" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Git Java 実装 - ssh support using Apache MINA sshd" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Java Native Access Platform" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Apache HttpClient" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Apache Mina SSHD :: OSGi" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Jetty :: ユーティリティー :: Ajax(JSON)" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Bouncy Castle Provider" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Java Native Access" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Git Java 実装 - GPG support using BouncyCastle" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "Jetty :: Http Utility" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-12-16 16:13:34.713
+!MESSAGE "reload4j" はすでにインストールされているため、代わりに更新が実行されます。
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-12-16 16:13:34.713
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE Software being installed: Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit.feature.group 6.4.0.202211300538-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE Software currently installed: Eclipse 用 Git 統合 - Task focused interface 5.12.0.202106070339-r (org.eclipse.egit.mylyn.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.713
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE Git integration for Eclipse 5.12.0.202106070339-r (org.eclipse.egit 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit 6.4.0.202211300538-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.713
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE From: Git integration for Eclipse 5.12.0.202106070339-r (org.eclipse.egit.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit [5.12.0.202106070339-r,5.12.0.202106070339-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.713
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE From: Git integration for Eclipse 6.4.0.202211300538-r (org.eclipse.egit.feature.group 6.4.0.202211300538-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit [6.4.0.202211300538-r,6.4.0.202211300538-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-12-16 16:13:34.713
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE From: Eclipse 用 Git 統合 - Task focused interface 5.12.0.202106070339-r (org.eclipse.egit.mylyn.feature.group 5.12.0.202106070339-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-12-16 16:13:34.713
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.feature.group [5.12.0,5.13.0)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:16:56.128
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:16:57.799
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:06.703
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:19.335
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:20.109
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:20.169
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:22.892
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:23.087
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:23.856
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:25.345
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:25.937
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:25.975
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:27.028
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:28.948
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:29.134
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:30.202
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-12-16 16:17:30.462
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2022-12-16 16:22:01.879
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

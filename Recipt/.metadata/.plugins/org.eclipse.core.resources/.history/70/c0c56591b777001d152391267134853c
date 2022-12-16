@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- Mapperとxmlのマッピング -->
+<mapper namespace="com.example.repository.DataMapper">
+
+  <!-- マッピング定義（ユーザー） -->
+  <resultMap type="com.example.model.TListData" id="listData">
+  	<id column="user_id" property="reciptId" />
+  	<result column="password" property="buyDate" />
+  	<result column="user_name" property="categoryId" />
+  	<result column="birthday" property="itemName" />
+  	<result column="age" property="shopName" />
+  	<result column="gender" property="spentMoney" />
+  	<result column="department_id" property="inputDate" />
+  	<result column="role" property="updateDate" />
+  	<result column="role" property="delFlg" />
+  	<association property="category" resultMap="category" />
+  </resultMap>
+
+  <!-- 月指定のデータ取得 -->
+  <select id="getMonthListData" resultType="TListData">
+  	select
+  		*
+  	from
+  		t_data
+  	<where>
+  		formatdatetime(buy_date,'yyyyMM') = #{yyyyMM}
+  	</where>
+  		order by recipt_id
+  </select>
+  
+   <!-- ひと月における日付ごとの金額データを取得 -->
+  <select id="getMonthDateMoneyData" resultType="hashmap">
+	select 
+		formatdatetime(buy_date, 'dd') as dd
+		, spent_money
+	from 
+		t_data
+  	<where>
+		formatdatetime(buy_date, 'yyyyMM') = #{yyyyMM}
+	</where>
+	group by formatdatetime(buy_date, 'yyyyMMdd')
+	order by formatdatetime(buy_date, 'dd')
+  </select>
+  
+  <!-- ひと月における費目ごとの金額データを取得 -->
+  <select id="getMonthCategoryMoneyData" resultType="hashmap">
+	select 
+		category_id
+		, spent_money
+	from 
+		t_data
+  	<where>
+		formatdatetime(buy_date, 'yyyyMM') = #{yyyyMM}
+	</where>
+	group by category_id
+	order by category_id
+  </select>
+  
+</mapper>
